@@ -34,9 +34,9 @@ body {
 }
 
 .instagram-posts {
-    width: 10%; /* Faz com que a área do Instagram ocupe toda a largura disponível dentro do container */
+    width: 10%; 
     text-align: center; /* Centraliza o texto e conteúdo dentro da área do Instagram */
-    margin-top: 20px; /* Adiciona um espaço entre esta seção e as categorias acima */
+    margin-top: 20px; 
 }
 
 .instagram-grid {
@@ -47,8 +47,8 @@ body {
 }
 
 .instagram-post {
-    /* Estilização para os placeholders ou embeds das postagens */
-    background-color: #f0f0f0; /* Cor de fundo para visualização; remova ou ajuste conforme necessário */
+   
+    background-color: #f0f0f0; 
     padding: 20px; /* Espaçamento interno para os posts */
     border-radius: 8px; /* Bordas arredondadas */
 }
@@ -100,7 +100,7 @@ h1 {
     }
   }
   
-  /* Ajuste para telas grandes (ex: desktops) */
+
   @media (min-width: 1025px) {
     .category {
       margin-top: 20px;
@@ -167,24 +167,24 @@ footer {
 
 .documents {
     display: flex;
-    flex-direction: column; /* or row if you want side by side */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    /* Add more styling as needed */
+    
 }
 
 .document {
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
-    width: 300px; /* or any other width */
-    /* Add more styling as needed */
+    width: 300px; 
+   
 }
 
 #searchBar {
     padding: 5px;
     margin-top: 12px;
-    width: 180px; /* Ou qualquer largura que preferir */
+    width: 180px; 
     height: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -250,12 +250,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff; /* Cor do texto ao passar o mouse */
-    text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+    color: #007bff; 
+    text-decoration: none; 
 }
 
 .dropdown:hover .dropdown-content {
-    display: block; /* Isso mostrará o submenu quando você passar o mouse sobre o item */
+    display: block; 
 }
 
 /* Estilos para o conteúdo do dropdown */
@@ -292,7 +292,7 @@ nav ul li a:hover {
 
 /* Estilo para a seta para baixo */
 .fas.fa-caret-down {
-    margin-left: 5px; /* Adiciona um pouco de espaço entre o texto e a seta */
+    margin-left: 5px; 
 }
 
 #submenu h2 {
@@ -396,5 +396,52 @@ section img {
 
     .news-item {
         padding: 15px;
+    }
+}
+
+#plano-reunioes {
+    margin-top: 40px;
+    background-color: #ffffff8e; 
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas como nos demais elementos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#plano-reunioes h2 {
+    color: #161616; /* Cor do título */
+    margin-bottom: 20px; 
+}
+
+.lista-reunioes {
+    list-style-type: none; /* Remove o estilo padrão da lista */
+    padding: 0;
+}
+
+.destaque {
+    background-color: #888888e5; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 6px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    list-style-type: none;
+}
+
+.lista-reunioes {
+    background-color: #ffdc42; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 6px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+@media (max-width: 768px) {
+    .lista-reunioes li {
+        padding: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .lista-reunioes li {
+        padding: 5px; 
     }
 }
