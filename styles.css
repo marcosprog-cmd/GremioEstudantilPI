@@ -17,13 +17,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Para tablets e dispositivos menores */
 @media (max-width: 768px) {
     .container {
-        padding: 15px;
-        max-width: 95%;
+        width: 95%;
+    }
+    .document-item {
+        flex-direction: column;
     }
 }
+
 
 /* Para smartphones e telas menores */
 @media (max-width: 480px) {
