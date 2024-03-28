@@ -447,3 +447,38 @@ section img {
         padding: 5px; 
     }
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 0.5rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: block; /* Isso ajuda no toque em dispositivos móveis */
+}
+
+/* Estilo para telas pequenas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none; /* Esconder a navegação por padrão */
+    }
+
+    nav ul.active {
+        display: flex; /* A classe 'active' pode ser toggled por JavaScript */
+    }
+
+    nav a {
+        font-size: 1.2rem; /* Tamanho de fonte maior para facilitar a interação */
+    }
