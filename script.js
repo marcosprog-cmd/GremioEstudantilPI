@@ -11,6 +11,7 @@ document.getElementById('searchBar').addEventListener('input', function(e) {
 const pdfFiles = {
     "Ata de Reuniões": [
         { name: "Ata_01_Reuniao2024.pdf", url: "pdf/ATA-N1_Gremio Estudantil.pdf" },
+        { name: "Ata_02_Reuniao2024.pdf", url: "pdf/ATA-N2_Gremio Estudantil.pdf" },
         
     ],
     "Prestação de Contas": [
