@@ -10,25 +10,19 @@ document.getElementById('searchBar').addEventListener('input', function(e) {
 
 const pdfFiles = {
     "Ata de Reuniões": [
-        { name: "Ata_01_Reuniao2024.pdf", url: "pdf/ATA-N1_Gremio Estudantil.pdf" },
+         { name: "Ata_01_Reuniao2024.pdf", url: "pdf/ATA-N1_Gremio Estudantil.pdf" },
         { name: "Ata_02_Reuniao2024.pdf", url: "pdf/ATA-N2_Gremio Estudantil.pdf" },
-        
     ],
     "Prestação de Contas": [
-        { name: "TrasparenciaFiscal_2023.pdf", url: "pdf/Prestação de Contas Anual - 2023.pdf" },
-        
+        { name: "TrasparenciaFiscal_2023.pdf", url: "pdf/Prestação de Contas Anual - 2023.pdf" }
     ],
     "Ofícios": [
-        { name: "Oficio-Halloween_2023.pdf", url: "pdf/Ofício - Halloween 2023.pdf" },
-        
+        { name: "Oficio-Halloween_2023.pdf", url: "pdf/Ofício - Halloween 2023.pdf" }
     ]
 };
 
 window.onload = function() {
-    const atasDiv = document.getElementById('atas');
-    const prestacaoDeContasDiv = document.getElementById('prestacaoDeContas');
-    const oficiosDiv = document.getElementById('oficios');
-
+    // Inicializa os links de PDF
     Object.keys(pdfFiles).forEach(function(category) {
         const files = pdfFiles[category];
         const categoryDiv = getCategoryDiv(category);
@@ -38,6 +32,21 @@ window.onload = function() {
             categoryDiv.appendChild(fileLink);
         });
     });
+
+    // Configuração do modal
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
 };
 
 function getCategoryDiv(category) {
@@ -63,22 +72,3 @@ function createFileLink(pdf) {
     fileLink.setAttribute('target', '_blank');
     return fileLink;
 }
-
-window.onload = function() {
-    
-    var modal = document.getElementById("myModal");
-    modal.style.display = "block";
-  
-   
-    var span = document.getElementsByClassName("close")[0];
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-  
-    
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  }
