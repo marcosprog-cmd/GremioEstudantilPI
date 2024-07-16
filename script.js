@@ -19,6 +19,11 @@ const pdfFiles = {
     ],
     "Ofícios": [
         { name: "Oficio-Halloween_2023.pdf", url: "pdf/Ofício-Halloween_2023.pdf" },
+        { name: "Oficio-Convite_002/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de Juru.pdf" },
+        { name: "Oficio-Convite_003/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de Água Branca.pdf" },
+        { name: "Oficio-Convite_004/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de Tavares.pdf" },
+        { name: "Oficio-Convite_005/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de Manaíra.pdf" },
+        { name: "Oficio-Convite_006/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de São José de Princesa.pdf" },
         { name: "Oficio-Convocação_007/2024.pdf", url: "pdf/Ofício - Convite Reunião.pdf" },
 
     ]
