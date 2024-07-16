@@ -14,10 +14,13 @@ const pdfFiles = {
         { name: "Ata_02_Reuniao2024.pdf", url: "pdf/ATA-N2_Gremio Estudantil.pdf" },
     ],
     "Prestação de Contas": [
-        { name: "TrasparenciaFiscal_2023.pdf", url: "pdf/Prestação de Contas Anual - 2023.pdf" }
+        { name: "TrasparenciaFiscal_2023.pdf", url: "pdf/Prestação de Contas Anual - 2023.pdf" },
+         { name: "TrasparenciaFiscal_06/2024.pdf", url: "pdf/Prestação de Contas Mensal - 06.2024.pdf" },
     ],
     "Ofícios": [
-        { name: "Oficio-Halloween_2023.pdf", url: "pdf/Ofício - Halloween 2023.pdf" }
+        { name: "Oficio-Halloween_2023.pdf", url: "pdf/Ofício-Halloween_2023.pdf" },
+        { name: "Oficio-Convocação_007/2024.pdf", url: "pdf/Ofício - Convite Reunião.pdf" },
+
     ]
 };
 
