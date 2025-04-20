@@ -2,7 +2,7 @@ body {
     font-family: 'Optima', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff7af;
+    background-color: #ffffff;
 }
 
 .container {
@@ -80,7 +80,7 @@ h1 {
 
 .category {
     margin-top: 20px;
-    background-color: #ffdc42;
+    background-color: #0fbf0a;
     padding: 10px;
     border-radius: 6px;
     transition: background-color 0.3s;
@@ -117,21 +117,21 @@ h1 {
 #fileList h2 {
     margin-bottom: 10px;
     width: 800px;
-    color: #000000; /* Adicione uma cor ao título da categoria */
+    color: #ffffff; /* Adicione uma cor ao título da categoria */
     font-family: "Heebo", sans-serif;
 }
 
 #fileList h3 {
     margin-bottom: 10px;
     width: 800px;
-    color: #000000; /* Adicione uma cor ao título da categoria */
+    color: #083ed1; /* Adicione uma cor ao título da categoria */
     font-family: "Heebo", sans-serif;
 }
 
 #fileList a {
     display: block;
     margin-bottom: 5px;
-    color: #0068cf; /* Adicione uma cor ao link */
+    color: #0056b3; /* Adicione uma cor ao link */
     text-decoration: none;
     transition: color 0.3s; /* Adicione uma transição suave */
 }
@@ -147,7 +147,7 @@ footer {
     color: #000000; /* Adicione uma cor ao texto do rodapé */
 }
 .category i {
-    color: #000000; /* Substitua 'blue' pela cor desejada */
+    color: #ffffff; /* Substitua 'blue' pela cor desejada */
     margin-right: 10px;
     font-size: 20px;
 }
@@ -164,7 +164,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: #ffe600; /* Cor dos ícones no hover */
+    color: #083ed1; /* Cor dos ícones no hover */
 }
 
 .documents {
@@ -199,7 +199,7 @@ nav ul {
     display: flex;
     justify-content: center;
     border-radius: 6px;
-    background-color: #ffe263;
+    background-color: #083ed1;
 }
 
 nav ul li {
@@ -208,7 +208,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     padding: 5px 10px;
     transition: background-color 0.3s;
 }
@@ -246,7 +246,7 @@ nav ul li a {
     display: inline-block;
     padding: 10px 15px; /* Espaçamento interno para tornar a área clicável maior */
     text-decoration: none;
-    color: #333; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     font-weight: bold; /* Torna o texto em negrito */
     transition: color 0.3s ease; /* Transição suave para mudança de cor */
 }
@@ -320,12 +320,12 @@ nav ul li a:hover {
 }
 
 .prest {
-    color: #161616;
+    color: #ffffff;
 }
 
 .category1 {
     margin-top: 20px;
-    background-color: #ffdc42;
+    background-color: #0fbf0a;
     padding: 10px;
     border-radius: 6px;
     transition: background-color 0.3s;
@@ -429,7 +429,7 @@ section img {
 }
 
 .lista-reunioes {
-    background-color: #ffdc42; 
+    background-color: #0fbf0a; 
     margin-bottom: 10px; 
     padding: 10px;
     border-radius: 6px; /* Bordas arredondadas */
