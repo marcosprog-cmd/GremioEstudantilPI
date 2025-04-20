@@ -12,6 +12,8 @@ const pdfFiles = {
     "Ata de Reuniões": [
          { name: "Ata_01_Reuniao2024.pdf", url: "pdf/ATA-N1_Gremio Estudantil.pdf" },
         { name: "Ata_02_Reuniao2024.pdf", url: "pdf/ATA-N2_Gremio Estudantil.pdf" },
+        { name: "Ata_03_Reuniao2024.pdf", url: "pdf/ATA-N3_Gremio Estudantil.pdf" },
+        { name: "Ata_04_Reuniao2024.pdf", url: "pdf/ATA-N4_Gremio Estudantil.pdf" },
     ],
     "Prestação de Contas": [
         { name: "TrasparenciaFiscal_2023.pdf", url: "pdf/Prestação de Contas Anual - 2023.pdf" },
@@ -25,7 +27,12 @@ const pdfFiles = {
         { name: "Oficio-Convite_005/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de Manaíra.pdf" },
         { name: "Oficio-Convite_006/2024.pdf", url: "pdf/Ofício - Convite Prefeitura de São José de Princesa.pdf" },
         { name: "Oficio-Convocação_007/2024.pdf", url: "pdf/Ofício - Convite Reunião.pdf" },
-
+        { name: "Oficio-Convocação_008/2024.pdf", url: "pdf/Ofício - Convite Reunião (2).pdf" },
+        { name: "Oficio-Convocação_009/2024.pdf", url: "pdf/Ofício - Convite Reunião(09).pdf" },
+        { name: "Oficio_010A/2025.pdf", url: "pdf/Ofício - 010A_2025.pdf" },
+        { name: "Oficio-Convocação_001/2025.pdf", url: "pdf/Ofício - Convite Reunião (001_2025).pdf" },
+        
+        
     ]
 };
 
@@ -80,3 +87,4 @@ function createFileLink(pdf) {
     fileLink.setAttribute('target', '_blank');
     return fileLink;
 }
+
